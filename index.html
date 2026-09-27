@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yashwant K — First Year B.E. ECE Student and Java Full Stack Developer Portfolio">
+  <meta name="theme-color" content="#070b1f">
+  <title>Yashwant K | Java Full Stack Developer</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div id="pageLoader" class="page-loader">
+    <div class="loader-logo">Yash</div>
+    <div class="loader-line"></div>
+    <p>Loading portfolio...</p>
+  </div>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home">Yash</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-glow btn-sm px-4" href="mailto:yash.manjula07@gmail.com">
+              <i class="bi bi-send me-1"></i> Hire / Connect
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero-section">
+    <div class="hero-grid"></div>
+    <div class="floating-orb orb-one"></div>
+    <div class="floating-orb orb-two"></div>
+    <div class="floating-orb orb-three"></div>
+
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100 py-5 g-5">
+        <div class="col-lg-7 order-2 order-lg-1">
+          <div class="hero-content reveal">
+            <div class="eyebrow">
+              <span class="pulse-dot"></span>
+              AVAILABLE FOR COLLABORATION & LEARNING
+            </div>
+
+            <p class="hero-kicker">HELLO, I'M</p>
+            <h1>YASHWANT <span>.K</span></h1>
+
+            <div class="typing-wrap">
+              <span class="static-role">I'M A </span>
+              <span id="typingText" class="typing-text">JAVA FULL STACK DEVELOPER</span><span class="typing-cursor">|</span>
+            </div>
+
+            <p class="hero-description">
+              First-year <strong>B.E. Electronics & Communication Engineering</strong> student at
+              <strong>Sri Krishna College of Engineering and Technology, Coimbatore</strong>,
+              building a strong foundation across Java, web development, databases and software engineering.
+            </p>
+
+            <div class="hero-buttons d-flex flex-wrap gap-3">
+              <a href="#projects" class="btn btn-primary-custom btn-lg">
+                Explore My Work <i class="bi bi-arrow-up-right ms-2"></i>
+              </a>
+              <a href="assets/certificate-livewire.png" target="_blank" class="btn btn-outline-custom btn-lg">
+                View Credentials <i class="bi bi-award ms-2"></i>
+              </a>
+            </div>
+
+            <div class="social-row mt-4">
+              <a href="https://github.com/yaashhh07-design" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/yashwant-k-9550793b5/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:yash.manjula07@gmail.com" aria-label="Email">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+              <a href="tel:+919750339579" aria-label="Phone">
+                <i class="bi bi-telephone-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 order-1 order-lg-2">
+          <div class="hero-photo-wrap reveal reveal-delay">
+            <div class="photo-ring"></div>
+            <div class="photo-card">
+              <img src="assets/profile.png" alt="Portrait of Yashwant K" class="hero-photo">
+              <div class="photo-badge badge-top">
+                <i class="bi bi-code-slash"></i>
+                <span>Java<br><small>Full Stack</small></span>
+              </div>
+              <div class="photo-badge badge-bottom">
+                <i class="bi bi-mortarboard-fill"></i>
+                <span>B.E. ECE<br><small>Student</small></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-indicator" href="#about">
+      <span>SCROLL</span><i class="bi bi-chevron-down"></i>
+    </a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-number">01</span>
+        <div>
+          <p class="section-label">GET TO KNOW ME</p>
+          <h2>Building with <span>curiosity</span>, learning with purpose.</h2>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 reveal">
+          <div class="about-card">
+            <div class="about-icon"><i class="bi bi-terminal"></i></div>
+            <h3>From fundamentals to full-stack thinking.</h3>
+            <p>
+              I am a first-year B.E. ECE student with a strong interest in software development.
+              My current focus is Java Full Stack Development, while continuously strengthening
+              my programming fundamentals in C, C++, Java and Python.
+            </p>
+            <p>
+              I enjoy turning ideas into practical web interfaces and Java applications,
+              experimenting with databases, APIs and responsive UI, and learning how each layer
+              of a modern application works together.
+            </p>
+            <div class="about-tags">
+              <span>Problem Solving</span>
+              <span>Web Development</span>
+              <span>Java</span>
+              <span>Continuous Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay">
+          <div class="journey-list">
+            <div class="journey-item">
+              <div class="journey-dot"><i class="bi bi-mortarboard"></i></div>
+              <div>
+                <span class="journey-time">CURRENT</span>
+                <h4>B.E. Electronics & Communication Engineering</h4>
+                <p>Sri Krishna College of Engineering and Technology, Coimbatore</p>
+              </div>
+            </div>
+
+            <div class="journey-item">
+              <div class="journey-dot"><i class="bi bi-patch-check"></i></div>
+              <div>
+                <span class="journey-time">2025 — 2026</span>
+                <h4>Advanced Diploma in Computer Application</h4>
+                <p>CSC Computer Software College — Grade A, Erode-II Centre</p>
+              </div>
+            </div>
+
+            <div class="journey-item">
+              <div class="journey-dot"><i class="bi bi-stack"></i></div>
+              <div>
+                <span class="journey-time">2026</span>
+                <h4>Master Program in Full Stack Development Using Java</h4>
+                <p>LIVEWIRE, Salem — completed August 2026</p>
+              </div>
+            </div>
+
+            <div class="quote-box">
+              <i class="bi bi-quote"></i>
+              <p>“Learn. Build. Break. Fix. Repeat.”</p>
+              <small>— My approach to becoming a better developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-pad section-dark">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <div>
+          <p class="section-label">MY TOOLKIT</p>
+          <h2>Skills that I am <span>building</span>.</h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="skill-card">
+            <div class="skill-icon java"><i class="bi bi-cup-hot-fill"></i></div>
+            <h3>Java</h3>
+            <p>Core Java, OOP, Collections, Exceptions and application development.</p>
+            <div class="skill-meter"><span style="width: 88%"></span></div>
+            <small>Core Strength</small>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay">
+          <div class="skill-card">
+            <div class="skill-icon web"><i class="bi bi-window-stack"></i></div>
+            <h3>Web</h3>
+            <p>HTML5, CSS3, JavaScript, responsive layouts and Bootstrap components.</p>
+            <div class="skill-meter"><span style="width: 90%"></span></div>
+            <small>Front-End</small>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="skill-card">
+            <div class="skill-icon backend"><i class="bi bi-diagram-3-fill"></i></div>
+            <h3>Backend</h3>
+            <p>Java-based backend concepts, APIs, database connectivity and Spring Boot learning.</p>
+            <div class="skill-meter"><span style="width: 78%"></span></div>
+            <small>Growing Fast</small>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay">
+          <div class="skill-card">
+            <div class="skill-icon database"><i class="bi bi-database-fill"></i></div>
+            <h3>Database</h3>
+            <p>SQL fundamentals, relational data concepts and JDBC/database integration.</p>
+            <div class="skill-meter"><span style="width: 74%"></span></div>
+            <small>Developing</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-cloud reveal">
+        <span><i class="bi bi-filetype-html"></i> HTML</span>
+        <span><i class="bi bi-filetype-css"></i> CSS</span>
+        <span><i class="bi bi-filetype-js"></i> JavaScript</span>
+        <span><i class="bi bi-bootstrap-fill"></i> Bootstrap</span>
+        <span><i class="bi bi-c-circle"></i> C</span>
+        <span>C++</span>
+        <span><i class="bi bi-cup-hot-fill"></i> Java</span>
+        <span><i class="bi bi-code-square"></i> Python</span>
+        <span><i class="bi bi-git"></i> Git / GitHub</span>
+        <span>SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-pad">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-number">03</span>
+        <div>
+          <p class="section-label">SELECTED WORK</p>
+          <h2>Projects that turn <span>practice into proof.</span></h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <div class="project-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+            <p class="project-type">FRONT-END DEVELOPMENT</p>
+            <h3>HTML & CSS Assignment</h3>
+            <p>
+              A responsive front-end project demonstrating page structure, styling,
+              layout composition and practical UI development with HTML and CSS.
+            </p>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>Responsive UI</span>
+            </div>
+            <a class="project-link" href="https://yaashhh07-design.github.io/HTML-CSS-Assignment/" target="_blank" rel="noopener">
+              Live Project <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="project-glow"></div>
+        </article>
+
+        <article class="project-card reveal reveal-delay">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="project-icon"><i class="bi bi-code-square"></i></div>
+            <p class="project-type">INTERACTIVE WEB</p>
+            <h3>HTML, CSS & JavaScript Assignment</h3>
+            <p>
+              A practical web project combining structure, visual design and JavaScript
+              logic to create a more interactive user experience.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a class="project-link" href="https://yaashhh07-design.github.io/HTML-CSS-and-JAVA-script-Assignment/" target="_blank" rel="noopener">
+              Live Project <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <div class="project-icon"><i class="bi bi-palette2"></i></div>
+            <p class="project-type">UI / FRONT-END</p>
+            <h3>Front-End Assignment</h3>
+            <p>
+              A front-end practice project focused on visual hierarchy, responsive design,
+              component styling and creating a polished browser experience.
+            </p>
+            <div class="project-tags">
+              <span>UI Design</span><span>CSS</span><span>Bootstrap</span>
+            </div>
+            <a class="project-link" href="https://yaashhh07-design.github.io/Front-End-Assignment/" target="_blank" rel="noopener">
+              Live Project <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="github-banner reveal">
+        <div>
+          <p class="section-label mb-2">MORE ON GITHUB</p>
+          <h3>Explore my coding journey, experiments & repositories.</h3>
+        </div>
+        <a href="https://github.com/yaashhh07-design" target="_blank" rel="noopener" class="btn btn-outline-custom">
+          <i class="bi bi-github me-2"></i> Visit GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certifications" class="section-pad section-dark">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <div>
+          <p class="section-label">CREDENTIALS</p>
+          <h2>Learning backed by <span>certificates.</span></h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6 reveal">
+          <div class="certificate-card">
+            <div class="certificate-image-wrap">
+              <img src="assets/certificate-adca.png" alt="Advanced Diploma in Computer Application certificate">
+              <div class="image-overlay">
+                <a href="assets/certificate-adca.png" target="_blank" class="view-image"><i class="bi bi-arrows-fullscreen"></i></a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="certificate-label">CERTIFICATION 01</span>
+              <h3>Advanced Diploma in Computer Application</h3>
+              <p>CSC Computer Software College · Grade A</p>
+              <div class="certificate-meta">
+                <span><i class="bi bi-calendar3"></i> Aug 2025 – Feb 2026</span>
+                <span><i class="bi bi-code-slash"></i> C · C++ · Java · Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay">
+          <div class="certificate-card">
+            <div class="certificate-image-wrap">
+              <img src="assets/certificate-livewire.png" alt="LIVEWIRE Master Program in Full Stack Development Using Java certificate">
+              <div class="image-overlay">
+                <a href="assets/certificate-livewire.png" target="_blank" class="view-image"><i class="bi bi-arrows-fullscreen"></i></a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="certificate-label">CERTIFICATION 02</span>
+              <h3>Master Program in Full Stack Development Using JAVA</h3>
+              <p>LIVEWIRE · Salem, New Bus Stand</p>
+              <div class="certificate-meta">
+                <span><i class="bi bi-calendar3"></i> Mar 2026 – Aug 2026</span>
+                <span><i class="bi bi-patch-check"></i> Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-6 col-lg-3 stat-box reveal">
+          <strong class="counter" data-target="4">0</strong><span>+</span>
+          <p>Programming Languages</p>
+        </div>
+        <div class="col-6 col-lg-3 stat-box reveal reveal-delay">
+          <strong class="counter" data-target="3">0</strong><span>+</span>
+          <p>Published Projects</p>
+        </div>
+        <div class="col-6 col-lg-3 stat-box reveal">
+          <strong class="counter" data-target="2">0</strong><span></span>
+          <p>Professional Certificates</p>
+        </div>
+        <div class="col-6 col-lg-3 stat-box reveal reveal-delay">
+          <strong class="counter" data-target="1">0</strong><span></span>
+          <p>B.E. Journey Started</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-pad contact-section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-number">05</span>
+        <div>
+          <p class="section-label">LET'S CONNECT</p>
+          <h2>Have an idea? <span>Let's build.</span></h2>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-stretch">
+        <div class="col-lg-5 reveal">
+          <div class="contact-intro">
+            <p class="lead">
+              Whether it is a project, internship opportunity, collaboration or simply
+              a conversation about technology, I would be happy to connect.
+            </p>
+
+            <div class="contact-list">
+              <a href="mailto:yash.manjula07@gmail.com" class="contact-item">
+                <span class="contact-icon"><i class="bi bi-envelope-fill"></i></span>
+                <span><small>EMAIL</small>yash.manjula07@gmail.com</span>
+              </a>
+              <a href="tel:+919750339579" class="contact-item">
+                <span class="contact-icon"><i class="bi bi-telephone-fill"></i></span>
+                <span><small>PHONE</small>+91 97503 39579</span>
+              </a>
+              <a href="https://www.linkedin.com/in/yashwant-k-9550793b5/" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon"><i class="bi bi-linkedin"></i></span>
+                <span><small>LINKEDIN</small>Connect with me</span>
+              </a>
+              <a href="https://github.com/yaashhh07-design" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon"><i class="bi bi-github"></i></span>
+                <span><small>GITHUB</small>yaashhh07-design</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 reveal reveal-delay">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="col-md-6">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+              <div class="col-12">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Let's work together..." required>
+              </div>
+              <div class="col-12">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..." required></textarea>
+              </div>
+              <div class="col-12 d-flex flex-wrap gap-3 align-items-center">
+                <button type="submit" class="btn btn-primary-custom btn-lg">
+                  Send Message <i class="bi bi-send-fill ms-2"></i>
+                </button>
+                <span id="formStatus" class="form-status"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-main">
+        <a href="#home" class="brand">YASHWANT.K</a>
+        <p>Engineering student · Java Full Stack Developer · Lifelong learner</p>
+        <div class="footer-social">
+          <a href="https://github.com/yaashhh07-design" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/yashwant-k-9550793b5/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:yash.manjula07@gmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Yashwant K. All rights reserved.</span>
+        <a href="#home">Back to top <i class="bi bi-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
